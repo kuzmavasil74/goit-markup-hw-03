@@ -409,6 +409,7 @@ font-style: normal;
 }
 .categories-contents {
     padding: 94px 0px;
+    
 }
 .btn {
 font-family: 'Roboto';
@@ -418,6 +419,8 @@ line-height: 1.6;
 letter-spacing: 0.03em;
 cursor: pointer;
 height: 38px;
+border-color: var(--background-color-2);
+background-color: var(--background-color-2);
 border-radius: 4px;
 padding: 6px 22px;
 }
@@ -476,6 +479,7 @@ padding: 6px 22px;
     margin: 0px;
 }
 .cat-des {
+
     border-right: 1px solid #EEEEEE;
     border-bottom: 1px solid #EEEEEE;
     border-left: 1px solid #EEEEEE;
