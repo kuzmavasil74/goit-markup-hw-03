@@ -40,7 +40,10 @@ ul {
 /* header */
 .header{
     border: 1px solid #ECECEC;
-
+}
+.header-logo {
+    padding-top: 24px;
+    padding-bottom: 25px;
 }
 .header-container {
     align-items: center;
@@ -62,8 +65,6 @@ ul {
     display: flex;
     display: block;
     margin-right: 93px;
-    padding-top: 24px;
-    padding-bottom: 25px;
 
     font-family: 'Raleway';
     font-size: 26px;
@@ -82,6 +83,7 @@ ul {
 .nav-buttons {
     display: block;
     padding: 5px;
+
 }
 .logo-studio {
 
@@ -206,6 +208,7 @@ color: var(--secondary-text-color);
     margin-left: auto;
     margin-right: auto;
     padding:  10px 32px;
+    border: none;
     
     font-family: 'Roboto';
     font-weight: 700;
@@ -319,7 +322,7 @@ height: 294px;
     display: flex;
     justify-content: center;
     margin: 0px;
-    padding-bottom: 50px;
+    margin-bottom: 50px;
     background-color: var(--background-color-2);
     letter-spacing: 0.03em;
     font-size: 36px;
@@ -350,7 +353,7 @@ height: 294px;
 .team-position {
     display: block;
     text-align: center;
-    margin:0px;
+    margin:10px 0px 0px 0px;
 
     line-height: 1.9;
     color:var(--primary-text-color);
@@ -438,11 +441,7 @@ padding: 6px 22px;
 .btn:not(:first-child){
     margin-left: 8px;
 }
-.btn:hover {
-    background-color: var(--accent-color);
-    color: var(--secondary-text-color);
-    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
-}
+.btn:hover,
 .btn:focus {
     background-color: var(--accent-color);
     color: var(--secondary-text-color);
